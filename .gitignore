@@ -4,3 +4,7 @@ temp_interactive_push.bat
 .gitignore
 config.bat
 node_modules
+
+# Secrets and local environment configuration
+!.env.example
+!**/.env.example
